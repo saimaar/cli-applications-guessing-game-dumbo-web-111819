@@ -4,7 +4,7 @@ def run_guessing_game
   rand_num = rand(6) + 1
   input = gets.chomp
 
-  until  input.to_i > rand_num do  
+  while input.to_i > rand_num do  
     
     
     if input.to_i == rand_num
